@@ -1,0 +1,1 @@
+- 2026-11-20 looper issue Pin this repository's build image (tacplus.lock or build.lock), so its gates run as build jobs and the VM runners can go (#4)
