@@ -1,0 +1,6 @@
+# The build image of tacplus-dev/onscreen, by digest (#4; looper#71, looper#73): tacplus build 2.6 at v2.6.13's digest,
+# the image tacplus's CI runs in (build:latest), in which this repository's gates (gates.yaml: the planning files and
+# this pin, bash and git, no Docker) run. Nothing is built here yet, so it is no tacplus project and has no
+# tacplus.lock; the build pipeline reads this pin the way it reads one. When the backend becomes a tacplus project
+# (#1), its tacplus.lock replaces this file. A new digest is a change like any other: it lands on the full gates.
+build_image: ghcr.io/tacplus-dev/tacplus/build:2.6.13@sha256:0387c7dc05216bb2158d2b907f10840b67079026872d01c54362a90ecca9ba4a

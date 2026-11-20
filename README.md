@@ -12,3 +12,6 @@ Two parts, one tacplus project (`tacplus-dev/roadmap:decisions/onscreen-2026-11-
   signed in with OIDC.
 
 Nothing is built yet: see ROADMAP.md.
+
+**Builds:** `build.lock` pins the build image by digest, and `gates.yaml` names the gates the build pipeline runs in it
+(the planning files and the pin, `checks/`); a land runs them as a build job.

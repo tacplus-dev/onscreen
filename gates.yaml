@@ -1,0 +1,6 @@
+# The gate map of tacplus-dev/onscreen (#4; looper#48, looper#71): the gates a land runs and the build pipeline runs
+# in build.lock's image, without Docker. One set: every land runs it. Its run is a shell command at the root of the
+# checkout, with LOOPER_GATES_BASE the main the land is rebased on: the planning files check and its tests, and the pin.
+full:
+  run: checks/planning-files.test.sh && checks/build-lock.test.sh && checks/planning-files-check "${LOOPER_GATES_BASE:-}"
+  minutes: 2
