@@ -4,3 +4,4 @@ Append-only: add entries at the end, never edit or remove one (the planning-file
 `- <YYYY-MM-DD> <who: looper|agent|jody> <kind: issue|decision|release|deploy> <one line> (<links>)`
 
 - 2026-11-13 looper issue CI: the planning-files check is missing (HISTORY.md append-only not enforced) (#3, 85d7f5d)
+- 2026-11-20 looper issue Pin this repository's build image (tacplus.lock or build.lock), so its gates run as build jobs and the VM runners can go (#4)
