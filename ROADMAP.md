@@ -9,6 +9,7 @@ Nothing built yet. Decided: `tacplus-dev/roadmap:decisions/onscreen-2026-11-04.m
 Held, low priority (Jody, 2026-11-04): nothing starts until tacplus-dev is completely on seabeam.net (https://github.com/tacplus-dev/cloud/issues/15). Deploys with the tacplus.dev deployment; the app is signed with Jody's Developer ID.
 - The backend: the model, what waits on what, polled from GitHub, GitLab and the cluster, served by a Watch (#1). Agent, at Jody's request, 2026-11-04.
 - The Mac app: full-screen SwiftUI on the generated Swift client, backend only, drill-down (#2). Agent, at Jody's request, 2026-11-04.
+- checks/build-lock.test.sh accepts build.lock at a tacplus line's dated build tag (#6). Hub, on its recommendation with Jody's standing agreement (tp-act-on-recommendations), 2026-11-26.
 
 ## Later
 - Webhooks from GitHub and GitLab through the gateway, instead of polling.
